@@ -1,0 +1,294 @@
+
+.nav{
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    margin: 0;
+    box-shadow: 5px 5px yellowgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.link{
+    color: beige;
+    padding: 10px;
+    margin: 8px;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    float: left;
+    display: flex;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+form{
+ 
+    text-align: center;
+
+ position: relative;
+    display: grid;
+    width: 100%;
+   
+   padding: 20px;
+    background-color: yellowgreen ;   
+}
+h1{
+    padding: 40px;
+    
+}
+#searching{
+    background-color: white;
+}
+.searchitem
+{
+    width: 45%;
+    border-radius: 26px;
+    height: 45px;
+    text-align: center;
+    border:  3px  ;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: white;
+}
+img{
+    padding: 0px 70px;
+    float: left;
+}
+img:hover{
+    border: none;
+    box-shadow: 0 0 30px red;
+}
+.about{
+    padding: 30px;
+}
+h2{
+    padding: 30px;
+    text-align: center;
+}
+h3{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    padding-left: 400px;
+    text-align: center;
+    font-family: century;
+}
+.btn{
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellow;
+    box-shadow: 0 0 10px red;
+}
+.box{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    transition: all .8s;
+    float: left;
+}
+.box:hover{
+    border: none;
+    box-shadow: 0 0 30px red;
+}
+.otherBooks{
+    text-align: center;
+}
+.btn1{
+    background-color: bisque;
+    padding: 10px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 30%;
+    overflow: auto;
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+}
+#dropdown-content {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: wheat;
+}
+.accordion-button:hover .dropdown-content{
+    display: block;
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    background-color: rgb(214, 237, 192);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+.headings {
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.query {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+#send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+.foot1 {
+    position: relative;
+    padding: 5px;
+    float: left;
+    left: 10px;
+    background-color: ;
+    margin: 5px;
+    color: white;
+    width: 18%;
+    border-radius: 5px;
+    text-align: center;
+}
+div {
+    display: block;
+}
+.foot{
+    padding: 10px;
+    background-color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: rgb(233, 31, 31);
+    color: white;
+  }
+  .fa-linkedin {
+    background: rgb(31, 31, 191);
+    color: white;
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.25), not all, only screen and (min-resolution: 200dpi), only screen and (min-resolution: 1.25dppx)
+body {
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+@media screen and (min-width: 36.3125em)
+.main-navigation, .post-navigation .meta-nav, .image-navigation, .comment-navigation, .sticky-post, .posted-on, .cat-links, .tags-links, .comments-link, .edit-link, .full-size-link, .page-links a, .page-links>span, .entry-caption, .comment-metadata, .pingback .edit-link, .comment-form label, .comment-notes, .comment-awaiting-moderation, .logged-in-as, .form-allowed-tags, .site-info, .wp-caption-text, .gallery-caption {
+    font-size: 17px;
+    font-size: 1.0625rem;
+    line-height: 1.411764706;
+}
+@media screen and (min-width: 36.3125em)
+body, input, select, textarea {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+  
